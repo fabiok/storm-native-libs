@@ -54,15 +54,15 @@
       </activation>
       <distributionManagement>
         <repository>
-          <id>cnaf-releases</id>
-          <name>CNAF releases</name>
-          <url>http://radiohead.cnaf.infn.it:8081/nexus/content/repositories/cnaf-releases/</url>
+          <id>sonatype-nexus-staging</id>
+          <name>Nexus repository</name>
+          <url>http://ci-01.cnaf.infn.it:8081/nexus/content/repositories/releases/</url>
         </repository>
 
         <snapshotRepository>
-          <id>cnaf-snapshots</id>
+          <id>sonatype-nexus-staging</id>
           <name>CNAF snapshots</name>
-          <url>http://radiohead.cnaf.infn.it:8081/nexus/content/repositories/cnaf-snapshots/</url>
+          <url>http://ci-01.cnaf.infn.it:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
       </distributionManagement>
     </profile>
