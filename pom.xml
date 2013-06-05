@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <properties>
-    <native.version>1-SNAPSHOT</native>
+    <native.version>1-SNAPSHOT</native.version>
   </properties>
   
   <groupId>org.italiangrid</groupId>
