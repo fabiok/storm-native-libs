@@ -4,6 +4,9 @@
 
   <properties>
     <native.version>1-SNAPSHOT</native.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <slf4j.version>1.7.2</slf4j.version>
+    <junit.version>4.10</junit.version>
   </properties>
   
   <groupId>org.italiangrid</groupId>
@@ -13,12 +16,6 @@
 
   <name>storm-native-interface</name>
   <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <slf4j.version>1.7.2</slf4j.version>
-    <junit.version>4.10</junit.version>
-  </properties>
 
   <build>
     <plugins>
